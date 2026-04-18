@@ -26,4 +26,38 @@
 1. Certifica-te de que tens o Python instalado.
 2. Instala a biblioteca CustomTkinter:
    ```bash
-   pip install customtkinter****
+   pip install customtkinter
+(Opcional) Para áudio, instala o Pygame:
+
+Bash
+pip install pygame
+Controlos
+Setas Direcionais: Movimentar a nave.
+
+Barra de Espaço: Disparar laser principal.
+
+Tecla [X]: Ativar Habilidade Especial (quando a barra estiver cheia).
+
+🗂️ Estrutura do Código
+NeonInvaders: Classe principal que gere o loop do jogo e a interface.
+
+Player & Skin: Estruturas de dados para gestão de atributos e visual das naves.
+
+_update_logic: Motor lógico que processa colisões, movimento e IA dos inimigos.
+
+_draw: Sistema de renderização que atualiza o Canvas a 60 FPS.
+
+✒️ Autores
+Luis Guilherme G.B.
+
+Otávio Cesar
+
+Este projeto foi desenvolvido como parte de estudos em Interface Gráfica e Lógica de Programação com Python.
+
+
+### Destaque Técnico para o teu Portefólio:
+Como mencionaste anteriormente que pretendes usar isto no teu **LinkedIn**, este README destaca pontos que recrutadores valorizam:
+1.  **POO (Programação Orientada a Objetos):** Uso de classes e `dataclasses`.
+2.  **Gestão de Estado:** Controlo de loops de jogo e deltas de tempo (`dt`).
+3.  **UI/UX:** Uso de `customtkinter` para fugir ao visual padrão do Tkinter.
+4.  **Manipulação de Ficheiros:** Persistência com `json`.
