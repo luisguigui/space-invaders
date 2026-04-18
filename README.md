@@ -53,11 +53,3 @@ Luis Guilherme G.B.
 Otávio Cesar
 
 Este projeto foi desenvolvido como parte de estudos em Interface Gráfica e Lógica de Programação com Python.
-
-
-### Destaque Técnico para o teu Portefólio:
-Como mencionaste anteriormente que pretendes usar isto no teu **LinkedIn**, este README destaca pontos que recrutadores valorizam:
-1.  **POO (Programação Orientada a Objetos):** Uso de classes e `dataclasses`.
-2.  **Gestão de Estado:** Controlo de loops de jogo e deltas de tempo (`dt`).
-3.  **UI/UX:** Uso de `customtkinter` para fugir ao visual padrão do Tkinter.
-4.  **Manipulação de Ficheiros:** Persistência com `json`.
